@@ -1,0 +1,71 @@
+.nav{
+	position: fixed;
+	top: 0;
+}
+.home .header{
+	height: 130px;
+	background-color: pink;
+	margin-top: 32px;
+}
+.home .header .wrapper{
+	width: 982px;
+	margin:0 auto;
+
+}
+.home .header .wrapper .mallSearch{
+	padding-top: 38px;
+	width: 410px;
+	margin: 0 auto;
+}
+/*==============Search==========*/
+.home .header .wrapper .mallSearch form::after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.home .header .wrapper .mallSearch form{
+	clear: both;
+
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: flex-end;*/
+	/*float: left;*/
+	box-sizing: border-box;
+    border: 1px solid #FF0036;	
+
+}
+.home .header .wrapper .mallSearch button{
+	float: left;
+	width: 128px;
+	display: inline-block;
+	height: 36px;
+	border: none;
+	background-color:  #FF0036;
+	color: #fff;
+	font-weight: 800;
+	font-size: 18px;
+	font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+
+}
+.home .header .wrapper .mallSearch .inputSearch{
+	float: left;
+	display: inline-block;
+	width: 280px;
+	height: 36px;
+	flex: 1; 	
+	border: none;
+}
+#list{
+	width: 280px;
+	border:1px solid #FF0036;
+	/*margin:;*/
+	border-top: 0;
+}
+#list li{
+	width: 280px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+#list li:hover{
+	background-color: #d7d7d7;
+}
